@@ -1,0 +1,21 @@
+<h3>Welcome to the biscuit personality quiz</h3>
+
+<div class="row">
+  <div class="col-xs-6">
+  <label>Your name: </label>
+  <input type="text" name="username" (keyup)="onKey($event)" [(ngModel)]="username">
+  <button (click)="start()">Start</button>
+  </div>
+  <div class="col-xs-6">
+  <table class="table">
+  	<thead>
+  	<tr><th>Name</th><th>Biscuit</th></tr>
+  	</thead>
+  	<tbody>
+  	<tr *ngFor="let t of tests">
+  		<td>{{t.name}}</td><td>{{t.biscuit}}</td>
+  	</tr>
+  	</tbody>
+  </table>
+  </div>
+</div>

@@ -1,0 +1,55 @@
+/* Master Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+  background-color: #D0E3E0; 
+}
+
+.question {
+	font-size: 4.0rem;
+	margin-top: 30px;
+	color: #fff;
+}
+.count {
+	font-size: 2.0rem;
+}
+
+.answers{
+	color: #fff;
+	margin-top: 30px;
+}
+
+.answer {
+	height: 40px;
+	font-size: 2.0rem;
+}
+
+.answer label {
+	font-weight: normal;
+}
+
+.back-button {
+	margin-top: 20px;
+}
+
+.result {
+	font-size: 1.4rem;
+}
+
+.result .biscuit {
+	font-size: 4.0rem;
+	display: block;
+}
+
+nav {
+	margin-bottom: 20px;
+}
